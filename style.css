@@ -12,6 +12,16 @@ p {
     font-size: 16px;
 }
 
+.contrast-bg {
+    background-color: rgba(165, 147, 99, 0.9);
+}
+
+.contrast-bg h2, .contrast-bg p {
+    color: white!important;
+    
+}
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -755,7 +765,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
 .bold-link {
@@ -777,6 +787,8 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
