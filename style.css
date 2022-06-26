@@ -8,12 +8,15 @@ body {
     
 }
 
+/* overflow-x: hidden;
+        position: relative; */
+
 p {
     font-size: 16px;
 }
 
 .contrast-bg {
-    background-color: rgba(165, 147, 99, 0.9);
+    background-color: rgba(165, 147, 99, 0.7);
 }
 
 .contrast-bg h2, .contrast-bg p {
