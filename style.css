@@ -8,10 +8,18 @@ body {
     
 }
 
-/* overflow-x: hidden;
-        position: relative; */
+blockquote p {
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+}
 
-p {
+blockquote {
+    border-left-color: #F3976C;
+}
+
+
+
+p, figcaption {
     font-size: 16px;
 }
 
@@ -751,7 +759,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-weight: bold;
     font-size: 20px;
 }
 
