@@ -17,8 +17,6 @@ blockquote {
     border-left-color: #F3976C;
 }
 
-
-
 p, figcaption {
     font-size: 16px;
 }
@@ -29,9 +27,7 @@ p, figcaption {
 
 .contrast-bg h2, .contrast-bg p {
     color: white!important;
-    
 }
-
 
 a,
 button {
@@ -323,7 +319,6 @@ a:hover {
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
 }
 
@@ -699,12 +694,12 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -723,7 +718,7 @@ a {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -740,15 +735,11 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
+h1, h4 {
     color: #333333!important;
 }
 
