@@ -25,3 +25,11 @@
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+
+AddOutputFilterByType DEFLATE text/css text/javascript 
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
