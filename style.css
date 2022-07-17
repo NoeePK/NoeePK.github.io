@@ -24,6 +24,10 @@ body {
         align-items: center;
     }
 
+    #bloc-6 h1, #bloc-6 p {
+        color: black;
+    }
+
     blockquote {
     border-left-color:#F3976C
     }
@@ -820,6 +824,24 @@ body {
     overflow-x:hidden;
     position:relative
     }
+
+    .bloc-mob-center-text {
+        text-align:center
+        }
+
+    .img-responsive {
+        margin: 0 auto;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    figure.text-center {
+        padding: 0 8%;
+        box-sizing: border-box;
+    }
     
     h1,h2,h3,h4,h5,h6,p,#disqus_thread {
     padding-left:10px!important;
@@ -976,8 +998,9 @@ body {
     }
     }
     
-    @media (max-width: 767px) {
-    .bloc-mob-center-text {
-    text-align:center
-    }
+    @media (min-width: 1900px) {
+        #bloc-1-hero {
+            max-width: 1900px;
+            margin: 0 auto;
+        }
     }
